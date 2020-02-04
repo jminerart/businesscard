@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 40pt;
+}
+/* the main container */
+
+/* .front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  position: relative;
+  /* adjust this to space out the cards */
+
+/* 
+.front-side{
+  background-image: url('cloud.svg');
+} */
+
+img{
+  transform: scale(.4);
+}
+
+/* .name{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+  padding: 10px;
+
+} */
+
+/* .secondary{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+
+} */
+
+.icon-container{
+  width:20%;
+  position:fixed;
+  bottom:0px;
+  left:0px;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  /* grid-template-areas: 
+  "a b c"; */
+}
+
+/* .circle{
+  background-image: url("/assets/circle.svg");
+  grid-area: a;
+} */
+
+
+/* h3{
+  margin-bottom: 0px;
+}
+
+h5{
+  margin-top: 0px;
+  padding-top: 0px;
+} */
